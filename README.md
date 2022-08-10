@@ -4,7 +4,7 @@
 
 ## 实物图
 
-<img src="E:\ti\ccswork\L28069_KEYBOARD\img\pic1.jpg" alt="IMG_20220810_114656" style="zoom: 25%;" />
+<img src="https://raw.githubusercontent.com/Lychee-acaca/KEYBOARD_L28069/master/img/pic1.jpg" style="zoom: 25%;" />
 
 ## 按键示意图
 
