@@ -2,6 +2,10 @@
 
 一个基于LAUNCHXL-F28069M的8pin 4*4矩阵按键驱动程序
 
+## 实物图
+
+<img src="E:\ti\ccswork\L28069_KEYBOARD\img\pic1.jpg" alt="IMG_20220810_114656" style="zoom: 25%;" />
+
 ## 按键示意图
 
 9   8   7   R1
