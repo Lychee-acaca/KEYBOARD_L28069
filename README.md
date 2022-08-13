@@ -4,7 +4,7 @@
 
 ## 实物图
 
-<img src="/doc/pic1.jpg" style="zoom: 25%;" />
+<img src="/docs/pic1.jpg" style="zoom: 25%;" />
 
 ## 按键示意图
 
