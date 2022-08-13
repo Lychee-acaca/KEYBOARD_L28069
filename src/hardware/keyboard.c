@@ -58,102 +58,118 @@ void Key_Scan(void)
     KEY_NUM = 0, KEY_OP = 0;
     if (!PA4)
     {
-        if (KEY_HOLD)
-            return;
-        KEY_HOLD = 1;
-        KEY_PRESS = 1;
-        check = PA_Scan(4);
-        if (check == 0)
+        DELAY_US(5000L);
+        if (!PA4)
         {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 7;
-        } else if (check == 1)
-        {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 4;
-        } else if (check == 2)
-        {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 1;
-        } else if (check == 3)
-        {
-            KEY_OP_PRESS = 1;
-            KEY_OP = 1;
+            if (KEY_HOLD)
+                return;
+            KEY_HOLD = 1;
+            KEY_PRESS = 1;
+            check = PA_Scan(4);
+            if (check == 0)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 7;
+            } else if (check == 1)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 4;
+            } else if (check == 2)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 1;
+            } else if (check == 3)
+            {
+                KEY_OP_PRESS = 1;
+                KEY_OP = 1;
+            }
         }
     }
     else if (!PA5)
     {
-        if (KEY_HOLD)
-            return;
-        KEY_HOLD = 1;
-        KEY_PRESS = 1;
-        check = PA_Scan(5);
-        if (check == 0)
+        DELAY_US(5000L);
+        if (!PA5)
         {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 8;
-        } else if (check == 1)
-        {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 5;
-        } else if (check == 2)
-        {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 2;
-        } else if (check == 3)
-        {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 0;
+            if (KEY_HOLD)
+                return;
+            KEY_HOLD = 1;
+            KEY_PRESS = 1;
+            check = PA_Scan(5);
+            if (check == 0)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 8;
+            } else if (check == 1)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 5;
+            } else if (check == 2)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 2;
+            } else if (check == 3)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 0;
+            }
         }
     }
     else if (!PA6)
     {
-        if (KEY_HOLD)
-            return;
-        KEY_HOLD = 1;
-        KEY_PRESS = 1;
-        check = PA_Scan(6);
-        if (check == 0)
+        DELAY_US(5000L);
+        if (!PA6)
         {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 9;
-        } else if (check == 1)
-        {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 6;
-        } else if (check == 2)
-        {
-            KEY_NUM_PRESS = 1;
-            KEY_NUM = 3;
-        } else if (check == 3)
-        {
-            KEY_OP_PRESS = 1;
-            KEY_OP = 3;
+            if (KEY_HOLD)
+                return;
+            KEY_HOLD = 1;
+            KEY_PRESS = 1;
+            check = PA_Scan(6);
+            if (check == 0)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 9;
+            } else if (check == 1)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 6;
+            } else if (check == 2)
+            {
+                KEY_NUM_PRESS = 1;
+                KEY_NUM = 3;
+            } else if (check == 3)
+            {
+                KEY_OP_PRESS = 1;
+                KEY_OP = 3;
+            }
         }
     }
     else if (!PA7)
     {
-        if (KEY_HOLD)
-            return;
-        KEY_HOLD = 1;
-        KEY_PRESS = 1;
-        check = PA_Scan(7);
-        if (check == 0)
+        DELAY_US(5000L);
+        if (!PA7)
         {
-            KEY_OP_PRESS = 1;
-            KEY_OP = 4;
-        } else if (check == 1)
-        {
-            KEY_OP_PRESS = 1;
-            KEY_OP = 5;
-        } else if (check == 2)
-        {
-            KEY_OP_PRESS = 1;
-            KEY_OP = 6;
-        } else if (check == 3)
-        {
-            KEY_OP_PRESS = 1;
-            KEY_OP = 2;
+            if (KEY_HOLD)
+                return;
+            KEY_HOLD = 1;
+            KEY_PRESS = 1;
+            check = PA_Scan(7);
+            if (check == 0)
+            {
+                KEY_OP_PRESS = 1;
+                KEY_OP = 4;
+            } else if (check == 1)
+            {
+                KEY_OP_PRESS = 1;
+                KEY_OP = 5;
+            } else if (check == 2)
+            {
+                KEY_OP_PRESS = 1;
+                KEY_OP = 6;
+            } else if (check == 3)
+            {
+                KEY_OP_PRESS = 1;
+                KEY_OP = 2;
+            }
         }
     } else KEY_HOLD = 0;
 

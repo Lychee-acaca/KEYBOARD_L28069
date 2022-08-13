@@ -4,7 +4,7 @@
 
 ## 实物图
 
-<img src="https://raw.githubusercontent.com/Lychee-acaca/KEYBOARD_L28069/master/img/pic1.jpg" style="zoom: 25%;" />
+<img src="/doc/pic1.jpg" style="zoom: 25%;" />
 
 ## 按键示意图
 
@@ -38,6 +38,7 @@ GPIO11
 
 
 
-## 注意事项
+## 更新2022/8/13
 
-目前没有做消抖。
+添加简单消抖
+
